@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.css">
     <title>Youtube-clone</title>
   </head>
   <body>
     <header>
        <nav>
-            <i class="fa fa-hamburgermenu"></i>
-            <img src="logo" alt="">
+        <i class="fas fa-bars"></i>
+            <img src="logo" alt="Nasa logo">
             <form class="search-bar" action="">
                 <input type="text" placeholder="Search" name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit"><i class="fas fa-search"></i></button>
               </form>
-              <button type="submit"><i class="fa fa-microphone"></i></button>
+              <button type="submit"><i class="fas fa-microphone"></i></button>
               <div class="end-nav">
                 <div class="toggle" id="">
                   <!--   <label class="toggle-lable"></label> -->
@@ -25,9 +26,9 @@
                       <span class="slider"></span>
                     </label>
                 </div>
-                <button type="submit"><i class="fa fa-videobutton"></i></button>
-                <button type="submit"><i class="fa fa-appbutton"></i></button>
-                <button type="submit"><i class="fa fa-bellicon"></i></button>
+                <button type="submit"><i class="fas fa-video"></i></button>
+                <button type="submit"><i class="fas fa-th"></i></button>
+                <button type="submit"><i class="fas fa-bell"></i></button>
                 <img src="" alt="Account holder image"><a href="#">avatar</a></img>
               </div>
             </nav>
@@ -35,10 +36,10 @@
                 <img src="" alt="Nasa poster">
                 <ul>
                     <li><a href="https://www.nasa.gov">www.nasa.gov</a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-flickr"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
             <div class="nasa-official">
@@ -53,15 +54,17 @@
                     <li><a href="#">Community</a></li>
                     <li><a href="#">Channels</a></li>
                     <li><a href="#">About</a></li>
-                    <i class="fa fa-search"></i>
+                    <li><button class="fas fa-search"></button>
+                        <!-- hidden and should be shown on click -->
+                        <input type="text" placeholder="Search" name="search"></li>
                 </ul>
             </div>
             <section class="aside-bar">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Explore</a></li>
-                    <li><a href="">Subscriptions</a></li>
-                    <li><a href="">Library</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">Library</a></li>
                 </ul>
         </section>
     </header>
