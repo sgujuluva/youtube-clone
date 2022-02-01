@@ -11,10 +11,6 @@ header{
   "official official official"
   "menu-bar menu-bar menu-bar";
 }
-header nav{
-    border:10px solid orange;
-    grid-area: nav;
-}
 .nasa-image{
     border:10px solid orange;
     grid-area: poster;
