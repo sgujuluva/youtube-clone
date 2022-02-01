@@ -1,6 +1,5 @@
 nav{
-    border:10px solid orange;
-    grid-area: nav;
+ grid-area: nav;
 display:flex;
 justify-content: space-between;
 align-items: center;
@@ -10,28 +9,41 @@ nav img{
    width:10vw; 
 }
 
+/* search bar */
+.search-bar{
+    /* position: relative; */
+}
+/* search bar input */
 nav form > input{
-    border:2px solid black;
+/*     border:2px solid black; */
     width:30vw;
     height:5vh;
-}
-nav form > input~button{
-    width:5vw;
+   /*  width: calc(100% - 60px); */
+   /*  height: 30px; */
+    text-align: center;
+    border: none;
+    
+    outline: none;
+    padding: 0 30px;
+   }
+/* search icon */
+nav form :nth-child(2){
+    /* position: absolute; */
+    width:3vw;
     height:5vh;
-}
-/* microphone */
-form + button{
-    width:2.5vw;
-    height:5vh;
-border-radius: 100%;
-border:none;
-}
+    cursor: pointer;
+    }
+/* microphone icon*/
+nav form :nth-child(3){
+border:2px solid red;
+position: absolute;
+margin-right:60px;
+} 
 form + button:hover{
      cursor: pointer;
 }
 /* toggle switch */
 .toggle {
-    border:1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,5 +93,21 @@ form + button:hover{
   
   /* end-nav flex box */
   .end-nav{
+      width:30vw;
       display:flex;
+      justify-content:space-evenly;
+      align-items: flex-end;
+  }
+  /* avatar */
+  .end-nav img{
+      width:4vw;
+      border-radius: 100%;
+  }
+
+  /* video,app,bell icon */
+  .end-nav button > i{      font-size: 1.5rem;
+  }
+  .end-nav button{
+      border:none;
+  background-color: transparent;
   }
