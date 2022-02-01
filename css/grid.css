@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    border:1px solid black;
+    grid-template-columns: 2fr 3fr auto 5fr;
+    grid-template-rows: 35fr 35fr;
+    grid-template-areas: 
+    "asidebar header header header"
+    "asidebar main main main";
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+.aside-bar{
+    grid-area: asidebar;
+    background-color:violet; 
+}
+main{
+    grid-area: main;
+    background-color:coral;   
+}
