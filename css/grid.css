@@ -8,10 +8,6 @@ body{
     "asidebar main main main";
 }
 
-header{
-    grid-area: header;
-    background-color: aqua;
-}
 
 .aside-bar{
     grid-area: asidebar;
