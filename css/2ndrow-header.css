@@ -1,7 +1,7 @@
 .nasa-image{
     background-image:url(../img/nasa-bg.png); 
     background-repeat: repeat;
-     height:40vh; 
+    /*  height:40vh; */ 
     display:flex;
      justify-content:flex-end;
     align-items: flex-end;

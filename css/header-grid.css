@@ -1,8 +1,7 @@
 header{
     grid-area: header;
-    background-color: aqua;
-    display:grid;
-    grid-template-rows: 2fr auto 4fr 2fr;
+     display:grid;
+    grid-template-rows: 2fr 5fr 3fr 7fr;
   grid-template-columns: 5fr auto 5fr;
   /* grid-gap: 5em; */
   grid-template-areas: 
@@ -12,14 +11,11 @@ header{
   "menu-bar menu-bar menu-bar";
 }
 .nasa-image{
-    border:10px solid orange;
-    grid-area: poster;
+       grid-area: poster;
 }
 .nasa-official{
-    border:10px solid orange;
-    grid-area: official;
+      grid-area: official;
 }
 .menu-bar{
-    border:10px solid orange;
-    grid-area: menu-bar;
+       grid-area: menu-bar;
 }
