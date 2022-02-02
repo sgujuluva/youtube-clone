@@ -1,4 +1,5 @@
 nav{
+  border:1px solid black;
  grid-area: nav;
 display:flex;
 justify-content: space-between;
