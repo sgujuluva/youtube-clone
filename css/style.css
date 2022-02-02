@@ -6,7 +6,7 @@
 @import url(./3rdrow-header.css);
 @import url(./menubar.css);
 @import url(./main.css);
-
+@import url(./video.css);
 *{
     font-size: 16px;
     margin:0;

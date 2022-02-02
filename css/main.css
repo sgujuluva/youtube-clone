@@ -5,7 +5,7 @@ main{
     background-color: aqua;
     grid-template-areas: 
     ". uploads uploads uploads uploads uploads . "
-    ". row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos ."
+    ". first first first first first first ."
     ". second second second second second second .";
 }
 .uploads{
@@ -13,7 +13,7 @@ main{
     background-color: blueviolet;
 }
 .row1-upload-videos{
-grid-area:row1-upload-videos;
+grid-area:first;
 background-color: green;
 }
 .row2-upload-videos{

@@ -1,0 +1,20 @@
+.uploads{
+    width:95vw;
+    height:5vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row1-upload-videos{
+    width:95vw;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.row2-upload-videos{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    width:95vw;
+}
