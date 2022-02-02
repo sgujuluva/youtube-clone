@@ -1,9 +1,7 @@
 .nasa-image{
-    background-image:url(../img/nasa-bg.png); 
+    background-image:url(../img/NASA-banner-1800x622-1.jpg); 
     background-repeat: repeat;
-   /* width:2560px;
-   height:1440px;  */
-    display:flex;
+     display:flex;
      justify-content:flex-end;
     align-items: flex-end;
     }

@@ -13,13 +13,12 @@ nav img{
 
 /* search bar input */
 nav form > input{
-/*     border:2px solid black; */
+    /* border:2px solid black; */
     width:30vw;
     height:5vh;
     text-align: center;
     outline: none;
-    padding: 0 30px;
-   }
+     }
 /* search icon */
 nav form :nth-child(2){
     /* position: absolute; */
@@ -29,9 +28,13 @@ nav form :nth-child(2){
     }
 /* microphone icon*/
 nav form :nth-child(3){
-border:2px solid red;
+/* border:2px solid red; */
 position: absolute;
-margin-right:60px;
+width:3vw;
+height:5vh;
+margin-left:20px;
+border-radius: 50%;
+border:none;
 } 
 form + button:hover{
      cursor: pointer;

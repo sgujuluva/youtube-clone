@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 13rem 3fr auto 10rem;
+    grid-template-columns: 11rem 3fr auto 10rem;
     grid-template-rows: 22rem 40rem;
     grid-template-areas: 
     "asidebar header header header"
