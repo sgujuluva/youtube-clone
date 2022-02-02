@@ -1,11 +1,11 @@
 main{
     display:grid;
     grid-template-rows: 2rem 10rem 10rem;
-    grid-template-columns: repeat(8,15rem) ;
+    grid-template-columns: repeat(6,14rem) ;
     grid-template-areas: 
-    "uploads  uploads uploads uploads uploads uploads uploads uploads "
-    "first first first first first first first first"
-    "empty second second second  second second second second";
+    "uploads  uploads uploads uploads uploads uploads"
+    "first first first first first first"
+    "second second second second second";
 }
 .uploads{
     grid-area: uploads;
@@ -19,7 +19,5 @@ grid-area:first;
     grid-area:second;
     /* background-color: yellow; */
 }
-.empty{
-    grid-area: empty;
-    }
+
 
