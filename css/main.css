@@ -1,0 +1,22 @@
+main{
+    display:grid;
+    grid-template-rows: 2rem 20rem 20rem;
+    grid-template-columns: 4rem repeat(6,5rem) 4rem;
+    background-color: aqua;
+    grid-template-areas: 
+    ". uploads uploads uploads uploads uploads . "
+    ". row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos row1-upload-videos ."
+    ". second second second second second second .";
+}
+.uploads{
+    grid-area: uploads;
+    background-color: blueviolet;
+}
+.row1-upload-videos{
+grid-area:row1-upload-videos;
+background-color: green;
+}
+.row2-upload-videos{
+    grid-area:second;
+    background-color: yellow;
+}

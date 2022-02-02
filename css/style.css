@@ -5,6 +5,7 @@
 @import url(./2ndrow-header.css);
 @import url(./3rdrow-header.css);
 @import url(./menubar.css);
+@import url(./main.css);
 
 *{
     font-size: 16px;
