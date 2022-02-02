@@ -1,6 +1,5 @@
 body{
     display: grid;
-    border:1px solid black;
     grid-template-columns: 13rem 3fr 3fr 5fr;
     grid-template-rows: 22rem 40rem;
     grid-template-areas: 

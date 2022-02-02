@@ -1,19 +1,22 @@
 .nasa-official{
     display: flex;
-       align-items: center;     
+    justify-content: center;
+  
+    align-items: center;     
 }
-.nasa-official div{
-    display: flex;
-     width:80%;
-  /*   height:100%; */
+.nasa-official div {
+    display: flex; 
+     
 }
 .nasa-official div span{
     align-self: center;
+  
 }
 .nasa-official img{
-    width:3rem;
+    width:5rem;
 }
 .nasa-official button{
+    
     background:red ;
     width:10rem;
     height:3rem;
@@ -24,4 +27,10 @@
 .nasa-official button:active{
     background-color: seagreen;
     cursor: pointer;
+}
+.control-spacing{
+    width:60rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }

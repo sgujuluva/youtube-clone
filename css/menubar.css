@@ -2,17 +2,18 @@
     display:flex;
     justify-content: center;
     align-items: center;
-margin-left: 70px;
+/* margin-left: 70px; */
 }
 .menu-bar ul{
+      width:100vw; 
       display:flex;
     justify-content:space-evenly;
     /* align-items: center; */
     list-style-type: none;
 }
 .menu-bar ul li{
-    width:15vw;
-    display:flex;
+      display:flex;
+    justify-content:space-evenly;
    transition:0.5s;
 } 
 .menu-bar ul li a{
