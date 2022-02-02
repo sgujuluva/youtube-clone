@@ -1,11 +1,21 @@
 
 
 .uploads{
-    width:80vw;
-    height:5vh;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width:100vw;
+    height:5vh;
+    font-weight: bold;
+}
+
+.uploads div{
+
+    width:50vh;
+ 
+}
+.uploads div:first-child{
+    align-items: flex-start;
 }
 .video {
   
@@ -14,27 +24,24 @@
 
 .row1-upload-videos{
      border:1px solid orchid;
-    width:80vw;
+   width:100vw; 
     display:flex;
+    
   }
-.uploads::before{
-    border:2px solid red;
-    content:"";
-    width:30rem;
-}
+
 .row1-upload-videos::before{
     content:"";
-    width:30rem;
+    width:10vw;
 }
 .row2-upload-videos{
     display:flex;
    /*  justify-content: space-between;
     align-items: center;  */
-    width:80vw;
+    width:100vw;
 }
 .row2-upload-videos::before{
     content:"";
-    width:30vw;
+    width:10vw;
 }
 
 .video{

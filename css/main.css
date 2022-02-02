@@ -6,6 +6,7 @@ main{
     "uploads  uploads uploads uploads uploads uploads"
     "first first first first first first"
     "second second second second second";
+    background-color: rgb(228, 222, 222);
 }
 .uploads{
     grid-area: uploads;
