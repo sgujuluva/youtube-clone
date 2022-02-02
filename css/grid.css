@@ -11,9 +11,9 @@ body{
 
 .aside-bar{
     grid-area: asidebar;
-    background-color:violet; 
+    background-color:grey; 
 }
 main{
     grid-area: main;
-    background-color:coral;   
+   background-color:grey; 
 }

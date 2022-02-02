@@ -19,11 +19,7 @@ nav form > input{
 /*     border:2px solid black; */
     width:30vw;
     height:5vh;
-   /*  width: calc(100% - 60px); */
-   /*  height: 30px; */
     text-align: center;
-    border: none;
-    
     outline: none;
     padding: 0 30px;
    }
