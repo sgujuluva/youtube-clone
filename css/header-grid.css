@@ -1,5 +1,5 @@
 header{
-    grid-area: header;
+   
      display:grid;
     grid-template-rows: 2.5rem 13rem 4rem 2rem;
   grid-template-columns: 5fr auto 5fr;

@@ -10,7 +10,7 @@
 }
 .nasa-official div span{
     align-self: center;
-  
+text-transform: capitalize ;
 }
 .nasa-official img{
     width:5rem;

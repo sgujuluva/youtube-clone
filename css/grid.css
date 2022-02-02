@@ -1,18 +1,23 @@
 body{
     display: grid;
-    grid-template-columns: 13rem 3fr 3fr 5fr;
+    grid-template-columns: 13rem 3fr auto 10rem;
     grid-template-rows: 22rem 40rem;
     grid-template-areas: 
     "asidebar header header header"
     "asidebar main main main";
 }
 
-
+nav{
+    grid-area: nav;
+}
+header{
+    grid-area: header;
+}
 .aside-bar{
     grid-area: asidebar;
     /* background-color:grey;  */
 }
 main{
     grid-area: main;
-   background-color:grey; 
+      /* background-color:grey;  */
 }
