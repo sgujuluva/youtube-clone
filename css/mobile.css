@@ -41,8 +41,61 @@ width:150px;
 border-radius: 70%;
 }
 
+/* main body */
 
+/* main-  grid layout*/
+header{
+    display:grid;
+    grid-template-rows: 6rem 4rem 2rem;
+    grid-template-areas: 
+    "banner"
+    "official"
+    "menu";
+}
 
+.nasa-image{
+    grid-area: banner;
+}
+.nasa-official{
+    grid-area: official;
+}
+.menu-bar{
+    grid-area: menu;
+}
+main{
+    display:grid;
+    grid-template-rows: 3rem 15rem 15rem;
+    grid-template-areas: 
+    "uploads"
+    "first"
+    "second";
+}
+.upload-title{
+    grid-area: uploads;
+}
+.row1-upload-videos{
+    grid-area: first;
+}
+.row2-upload-videos{
+    grid-area: second;
+}
+.nasa-image img{
+    border:2px solid red;
+    width:300px;
+    height:100px;
+    display:flex;    
+}
+.nasa-official {
+    border:2px solid black;
+    width:400px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.nasa-official img{
+    width:60px;
+    height:40px;
+}
 
 
 }

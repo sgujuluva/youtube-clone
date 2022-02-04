@@ -1,19 +1,23 @@
 body{
     display:grid;
-    grid-template-columns: 3.5rem auto;
-    grid-template-rows: 2.7rem auto;
+    grid-template-columns: 3.5rem 50rem ;
+    grid-template-rows: 3.1rem 8rem 20rem;
     grid-template-areas: 
-    " aside nav"
+    " aside nav "
+    "aside header"
     "aside main";
 }
 nav{
 grid-area:nav;
 background-color: bisque;
 }
-main{
-    grid-area:main;
+header{
+    grid-area:header;
     background-color: pink;
 }
+main{
+    grid-area:main;
+    }
 .aside-bar{
     grid-area:aside;
 background-color:lightblue;
