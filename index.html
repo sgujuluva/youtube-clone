@@ -76,14 +76,15 @@
         <div></div>
         <div></div>
       </div>
-      <!-- <div class="side-menu"> 
+      <div class="side-menu-shown"> 
         <ul>
           <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
           <li><a href="#"><i class="fas fa-compass"></i>Explore</a></li>
           <li><a href="#"><i class="fas fa-play"></i>Subscriptions</a></li>
           <li><a href="#"><i class="fas fa-play"></i>Library</a></li>
           </ul>
-      </div> -->
+      </div>
+       <div class="side-menu">
       <div class="home-aside">
         <ul>
           <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
@@ -141,7 +142,8 @@
         <a href="">Test new features</a>
         </p>
         <div>©copyright Sangeetha Project</div>
-      </footer>     
+      </footer>   
+    </div> 
 </section>
     <main>
      
@@ -280,5 +282,24 @@
         </div>
       </article>
     </main>
+    <script>
+      // this is javascript
+      let clicked = false;
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        clicked = !clicked;
+        console.log(clicked);
+        if (clicked) {
+          //do something only if clocked is true
+          document.querySelector(".side-menu").style.cssText =
+            "display: block;position;absolute;top: 6%;left: 0;background-color: black;color: white;z-index: 1;";
+            document.querySelector(".side-menu-shown").style.cssText = "display: none;";
+        } else {
+          //do something only if clocked is false
+          
+          document.querySelector(".side-menu-shown").style.cssText = "display: block;";
+          document.querySelector(".side-menu").style.cssText = "display: none;";
+        }
+      });
+    </script>
   </body>
 </html>
