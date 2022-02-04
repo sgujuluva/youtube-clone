@@ -1,0 +1,27 @@
+@media only screen and (max-width : 600px) {
+    *{
+        font-size: 16px;
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        width:100vw;
+        height:100vh;
+        border:3px solid black;
+    }
+    header{
+        width:100vw;
+        height:70vh;
+    }
+    main{
+        font-size: 10px;
+        width:100vw;
+        height:90vh;
+        background-color: rgb(228, 222, 222);
+    }
+    .aside-bar{
+        width:20vw;
+        }
+    
+}
