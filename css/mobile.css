@@ -7,7 +7,7 @@
     }
     /* side bar */
 .aside-bar{
-    width:50px;
+    width:15px;
 }
 /* navigation header */
 nav{
@@ -80,21 +80,22 @@ main{
     grid-area: second;
 }
 .nasa-image img{
-    border:2px solid red;
+    border:1px solid red;
     width:300px;
     height:100px;
     display:flex;    
 }
 .nasa-official {
-    border:2px solid black;
+    border:1px solid black;
     width:400px;
+    height:40px;
 display:flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
 }
 .nasa-official img{
-    width:60px;
-    height:40px;
+    width:30px;
+    height:20px;
 }
 
 

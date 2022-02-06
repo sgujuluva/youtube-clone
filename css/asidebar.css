@@ -1,18 +1,19 @@
 
     /* hamburger menu */
 .hamburger {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
     flex-direction: column;
-    width: 2rem;
-    height: 2rem;
-    border: 2px red dashed;
+    width: 0.5rem;
+    height: 1.5rem;
+    
   }
   .hamburger div {
-    width: 1.5rem;
+    width: 0.7rem;
     background-color: black;
     border-radius: 10%;
+   margin-left: 4px;
     border: 2px black solid;
   }
   a {
@@ -25,3 +26,12 @@
   .aside-bar{
       height:736px;
   }
+/* shown-menu styling */
+
+.side-menu-shown ul {
+  height:150px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  font-size: 0.7rem;
+}
