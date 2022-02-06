@@ -116,8 +116,8 @@ main{
 }
 /* nasa official */
 .nasa-official {
-    margin-top:13px;
-    border:1px solid black;
+    margin-top:11px;
+    /* border:1px solid black; */
     width:400px;
     height:40px;
 display:flex;
@@ -141,6 +141,13 @@ align-items: center;
     color:white;
     border-radius: 5%;
     border:none;
+    margin-left:40px;
 }
+/* .control-spacing{
+    width:20rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} */
 
 }
