@@ -1,7 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 1rem 50rem ;
-    grid-template-rows: 2rem 8rem 20rem;
+    grid-template-rows: 2rem 6rem 20rem;
     grid-template-areas: 
     " aside nav "
     "aside header"
@@ -9,16 +9,16 @@ body{
 }
 nav{
 grid-area:nav;
-background-color: bisque;
+/* background-color: bisque; */
 }
 header{
     grid-area:header;
-    background-color: pink;
+   /*  background-color: pink; */
 }
 main{
     grid-area:main;
     }
 .aside-bar{
     grid-area:aside;
-background-color:lightblue;
+/* background-color:lightblue; */
 }

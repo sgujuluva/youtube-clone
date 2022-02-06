@@ -20,12 +20,12 @@ align-items: center;
 }
 /* youtube icon */
 nav img{
-    width:60px;
-    height:30px;    
+    width:35px;
+    height:10px;    
 }
 /* search text, button, microphone */
 form input{
-      width:80px;
+      width:70px;
 }
 /* icons of avatar, video, app */
 .end-nav {
@@ -62,6 +62,7 @@ header{
 .menu-bar{
     grid-area: menu;
 }
+/* main grid for videos upload */
 main{
     display:grid;
     grid-template-rows: 3rem 15rem 15rem;
@@ -79,16 +80,17 @@ main{
 .row2-upload-videos{
     grid-area: second;
 }
+/* banner image */
 .nasa-image{
     width:360px; 
     height:50px;
-    
     display:flex;
     justify-content: center;    
     align-items: center;
 }
 .nasa-image img{
-    width:410px; 
+    border:3px solid white;
+    width:360px; 
     height:50px; 
   }
 /* .nasa-image ul{
@@ -158,4 +160,80 @@ color:black;
 text-decoration: none;
 font-size:9px ;
 }
+/* uploads -video */
+/* .uploads-title{
+    display:flex;
+} */
+.uploads{
+    width:360px;
+    display:flex;
+    font-size:10px;
+    justify-content:space-around;
+}
+.row1-upload-videos{
+   
+    display:flex;
+    width:300px;
+    height:150px;
+}
+.row1-upload-videos > .video {
+   /*  border:1px solid orchid; */
+    display:flex;
+   flex-direction: column;  
+    width:300px ;
+    height:100px;
+    margin:3px;
+ }
+ .row1-upload-videos > .video > img{
+   margin-left:5px;
+width:50px;
+height:60px;
+ }
+
+  .img-text{
+    /*  border:2px solid blue; */
+     width:50px;
+     /* height:80px;  */
+     display:flex;
+ } 
+  .img-text span{
+     display:flex;
+     align-items: center;
+ } 
+ .video div a{
+    text-decoration: none;
+    font-size: 8px;
+    
+    color:black;
+}
+.info-video{
+    display:flex;
+    align-items: center;
+}
+.info-video span{
+    color:grey;
+    font-size: 8px;
+} 
+/* row2 videos */
+/* video container */
+.row2-upload-videos{
+   
+    display:flex;
+    width:300px;
+    height:150px;
+}
+.row2-upload-videos > .video {
+   /*  border:1px solid orchid; */
+    display:flex;
+   flex-direction: column;  
+    width:300px ;
+    height:100px;
+    margin:3px;
+ }
+ .row2-upload-videos > .video > img{
+   margin-left:5px;
+width:50px;
+height:60px;
+ }
+
 }
