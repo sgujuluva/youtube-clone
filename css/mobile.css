@@ -143,11 +143,19 @@ align-items: center;
     border:none;
     margin-left:40px;
 }
-/* .control-spacing{
-    width:20rem;
+/* menu-bar */
+.menu-bar{
+  margin-top:10px;
+ width:400px;
+}
+.menu-bar ul{
+    list-style-type: none;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
+    justify-content: space-evenly;
+}
+.menu-bar ul li a{
+color:black;
+text-decoration: none;
+font-size:9px ;
+}
 }
