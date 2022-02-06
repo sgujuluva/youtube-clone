@@ -1,7 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 1rem 50rem ;
-    grid-template-rows: 3.1rem 8rem 20rem;
+    grid-template-rows: 2rem 8rem 20rem;
     grid-template-areas: 
     " aside nav "
     "aside header"
