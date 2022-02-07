@@ -1,4 +1,5 @@
 body{
+   
     display:grid;
     grid-template-columns: 1rem 50rem ;
     grid-template-rows: 2rem 6rem 20rem;

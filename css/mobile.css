@@ -1,9 +1,10 @@
 @media only screen and (max-width:600px){
     /* iphone 6/7/8 plus --- width:415px 736:height*/
     body{
+        border:2px solid red;
         width:414px;
         height:736px;
-        border:5px solid red;
+      
     }
     /* side bar */
 .aside-bar{
@@ -236,4 +237,4 @@ width:50px;
 height:60px;
  }
 
-}
+ } 
