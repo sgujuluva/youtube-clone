@@ -1,7 +1,7 @@
 main{
     display:grid;
-    grid-template-rows: 2rem 10rem 10rem;
-    grid-template-columns: repeat(6,14rem) ;
+    grid-template-rows: 1.5rem 13rem 10rem;
+    grid-template-columns: repeat(6,12rem) ;
     grid-template-areas: 
     "uploads  uploads uploads uploads uploads uploads"
     "first first first first first first"

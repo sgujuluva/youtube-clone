@@ -1,4 +1,7 @@
-
+main{
+    width:100%;
+    height:100%;
+}
 
 .uploads{
     display:flex;
@@ -17,17 +20,19 @@
     align-items: flex-start;
 }
 .video {
-    width:207px;
-    height:170px;
+  width:100%;
+  height:100%;
   }
-
-
-
-.row1-upload-videos{
-      width:100vw; 
-    display:flex;
-    }
-
+  .video img{
+      width:80%;
+  }
+ .row1-upload-videos{
+width:90%;
+     border:2px solid red;
+        display:flex;
+       
+    } 
+ 
 .row1-upload-videos::before{
     content:"";
     width:5vw;
