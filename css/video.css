@@ -11,9 +11,9 @@
   align-items: center;
  }
  /* videos */
- .row1-upload-videos{
-    
-     width:100%;
+ .row1-upload-videos, .row2-upload-videos{
+     margin:2% 0;
+    width:100%;
      display:flex;
      flex-direction: row;
      justify-content: space-around;
