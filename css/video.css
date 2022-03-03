@@ -73,8 +73,8 @@
      width:100%;
      height:100%;
  }
- .uploads{ /*  */
-  border:2px solid red;
+ .uploads{ /*upload & sortby styled  */
+  
   width:100vw;
   height:5vh;
   display:flex;
