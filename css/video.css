@@ -1,82 +1,11 @@
-/* main{
-    width:100%;
-    height:100%;
-}
-
-.uploads{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height:5vh;
-    font-weight: bold;
-}
-
-.uploads div{
-    width:50vh;
- }
-
-.uploads > div{
-    align-items: flex-start;
-}
-.video {
-  width:100%;
-  height:100%;
-  }
-  .video img{
-      width:80%;
-  }
- .row1-upload-videos{
-
-     border:2px solid red;
-        display:flex;
-       
-    } 
- 
-.row1-upload-videos::before{
-    content:"";
-    width:5vw;
-}
-.row2-upload-videos{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;  
-    width:100vw;
-}
-.row2-upload-videos::before{
-    content:"";
-    width:5vw;
-}
-
-.video{
-    margin:5px;
-}
- .video div a{
-     text-decoration: none;
-     font-weight: bold;
-     color:black;
- }
- .info-video span{
-     color:grey;
-     
- } 
- .info-video{
-     display: flex;
-   justify-content:space-evenly;
- }
- .info-video :last-child{
-         text-align: end;
- } */
-
- /* new code */
  .uploads-title{/* setting height & width for this container */
-     width:100%;
-     height:100%;
+   
+     width:87vw;
+     height:100vh;
  }
  .uploads{ /*upload & sortby styled  */
-  
-  width:100vw;
-  height:5vh;
+    width:100%;
+   height:5vh;
   display:flex;
   justify-content: space-around;
   align-items: center;
@@ -84,18 +13,22 @@
  /* videos */
  .row1-upload-videos{
     
-     width:100vw;
+     width:100%;
      display:flex;
      flex-direction: row;
      justify-content: space-around;
  }
  /* videos img */
+ .video>img{
+     width:100%;
+ }
  .video{
-     border:2px solid blue;
+   
      width:15%;
      display:flex;
+     flex-wrap: wrap;
      flex-direction: column;
-     justify-content: space-evenly;
+     justify-content: space-around;
    
  }
  

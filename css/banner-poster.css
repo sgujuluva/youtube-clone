@@ -1,12 +1,17 @@
 .nasa-image{
+   
+    width:87%;
     background-image:url(../img/NASA-banner-1800x622-1.jpg); 
     background-repeat: no-repeat;
+    background-position: center center;
+    overflow:hidden;
      display:flex;
+     
      justify-content:center;
     align-items: flex-end;
     }
     .nasa-image img{
-           width:100%;
+           width:60%;
     }
 .nasa-image ul{
     display:flex;
