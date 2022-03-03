@@ -1,5 +1,7 @@
 main{
-    display:grid;
+   
+    width:70%;
+        display:grid;
     grid-template-rows: 1.5rem 13rem 10rem;
     grid-template-columns: repeat(6,12rem) ;
     grid-template-areas: 
