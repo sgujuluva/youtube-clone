@@ -3,6 +3,7 @@ const theme = () => {
     const body = document.querySelector("body");
     const aside = document.querySelector(".aside-bar");
     const linkAside = document.querySelectorAll(".aside-bar ul li a");
+   
     const footer = document.querySelectorAll("footer p a");
    //checkbox
     if (checkbox) {
@@ -23,8 +24,14 @@ const theme = () => {
       body.classList.remove("dark");
       aside.classList.add("light");
       aside.classList.remove("dark");
-      linkAside.classList.add("light");
-      linkAside.classList.remove("dark");
+      linkAside.forEach(item => {
+        item.classList.add("light");
+       item.classList.remove("dark");
+       });
+       footer.forEach(item => {
+        item.classList.add("light");
+       item.classList.remove("dark");
+       });
     }
 
   }
