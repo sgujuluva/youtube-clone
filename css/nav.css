@@ -42,6 +42,14 @@ form + button:hover{
      cursor: pointer;
 }
 /* toggle switch */
+.dark{
+  background-color: black;
+  color:white;
+}
+.light{
+  background-color: antiquewhite;
+  color:black;
+}
 .toggle {
     display: flex;
     align-items: center;
