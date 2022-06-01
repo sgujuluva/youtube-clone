@@ -1,6 +1,5 @@
 nav{
  /*  border:1px solid black; */
-
  width:90vw;
 display:flex;
 justify-content: space-between;
@@ -119,5 +118,5 @@ form + button:hover{
   }
   .end-nav button{
       border:none;
-  background-color: transparent;
+/*   background-color: transparent; */
   }

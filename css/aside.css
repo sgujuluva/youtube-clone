@@ -14,7 +14,7 @@ padding:0.25rem;
 }
 
 .aside-bar ul li a{
-    color:black;
+  /*   color:black; */
     font-size: large;
     text-decoration: none;
     
@@ -25,7 +25,7 @@ padding:0.25rem;
 
 footer p a{
     text-decoration: none;
-    color:black;
+  /*   color:black; */
     margin-right: 1rem;
     
   }

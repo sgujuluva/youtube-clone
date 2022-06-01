@@ -1,18 +1,26 @@
 const theme = () => {
     const checkbox = document.querySelector("#light-dark").checked;
     const body = document.querySelector("body");
-    console.log(checkbox);
+    const aside = document.querySelector(".aside-bar");
+    const linkAside = document.querySelectorAll(".aside-bar ul li a");
+    const
+   //checkbox
     if (checkbox) {
-      //  this is cool state
-      // body.style.backgroundColor = "black";
-      // body.classList.toggle("dark");
       body.classList.add("dark");
       body.classList.remove("light");
+      aside.classList.add("dark");
+      aside.classList.remove("light");
+      linkAside.forEach(item => {
+       item.classList.add("dark");
+      item.classList.remove("light");
+      });
     } else {
-      //  this is not so cool state
-      // body.style.backgroundColor = "white";
-      // body.classList.toggle("light");
       body.classList.add("light");
       body.classList.remove("dark");
+      aside.classList.add("light");
+      aside.classList.remove("dark");
+      linkAside.classList.add("light");
+      linkAside.classList.remove("dark");
     }
+
   }
